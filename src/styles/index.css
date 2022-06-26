@@ -1,0 +1,17 @@
+html {
+    scroll-behavior: smooth;    
+}
+
+body {
+    min-width: 1150px;
+    border: 6px solid;
+    height: auto;
+    min-height: 100vh;
+    background-color: #faeee7;
+    margin: 0;
+    padding: 0;
+    border-image-source: linear-gradient(90deg,#f7c9c9,#fa709a 70%);
+    border-image-slice: 1;
+    box-sizing: border-box;
+}
+
