@@ -36,7 +36,7 @@
     font-family: 'Kaisei Opti', serif;
     margin: 0;
     text-align: right;
-    color: #fa7099a3;
+    color: #a26700ef;
     font-size: 17px;
 }
 
@@ -90,7 +90,7 @@
 }
 
 .helloButton {
-    background-color: #FCEBB1;
+    background-color: #f5c118;
     width: 140px;
     height: 60px;
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.2);

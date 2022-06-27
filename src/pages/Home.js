@@ -29,7 +29,7 @@ export default function Home() {
                         <Typed
                             style={{
                                 'paddingLeft':10,
-                                'color':'#f65081'
+                                'color':'#f4be0d'
                             }}
                             strings={[
                                 "Software Engineer",
