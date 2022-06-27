@@ -68,9 +68,9 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="socialnet">
-                        <AiOutlineGithub />
-                        <AiFillLinkedin />
-                        <AiFillTwitterSquare />
+                        <AiOutlineGithub size={30} />
+                        <AiFillLinkedin size={30} />
+                        <AiFillTwitterSquare size={30} />
                     </div>
                 </div>
             </main>
