@@ -56,6 +56,15 @@ export default function Home() {
                         }
                     </div>
                 </div>
+                <div className="getInTouch">
+                    <h1>Get in Touch</h1>
+                    <div className="callMe">
+                        <p>Want to work together or have any questions ?</p>
+                        <div className="helloButton">
+                            <p>SAY HELLO</p>
+                        </div>
+                    </div>
+                </div>
             </main>
 
         </div>
