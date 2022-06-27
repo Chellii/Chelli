@@ -4,6 +4,7 @@ import chelliGif from "../images/chelli.gif"
 import Typed from "react-typed"
 import LatestProject from "../Components/LatestProject"
 import Projects from '../data/data'
+import {AiOutlineGithub, AiFillLinkedin} from 'react-icons/ai'
 
 export default function Home() {
     const project_tag = Projects.map(project => {
@@ -56,13 +57,19 @@ export default function Home() {
                         }
                     </div>
                 </div>
-                <div className="getInTouch">
-                    <h1>Get in Touch</h1>
-                    <div className="callMe">
-                        <p>Want to work together or have any questions ?</p>
-                        <div className="helloButton">
-                            <p>SAY HELLO</p>
+                <div className="contact">
+                    <div className="getInTouch">
+                        <h1>Get in Touch</h1>
+                        <div className="callMe">
+                            <p>Want to work together or have any questions ?</p>
+                            <div className="helloButton">
+                                <p>SAY HELLO</p>
+                            </div>
                         </div>
+                    </div>
+                    <div className="socialnet">
+                        <AiOutlineGithub />
+                        <AiFillLinkedin />
                     </div>
                 </div>
             </main>

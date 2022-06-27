@@ -57,12 +57,18 @@
     font-size: 30px;
 }
 
-.getInTouch {
+.contact {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 70px;
     margin-bottom: 100px;
+}
+
+.getInTouch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .getInTouch > h1 {
