@@ -22,6 +22,7 @@
     padding: 0;
     display: flex;
     flex-direction: row;
+    padding-bottom: 30px;
     
 }
 
@@ -43,4 +44,13 @@
     font-size: 28px;
     margin: 0;
     padding-top: 20px;
+}
+
+.projects-main {
+    padding-top: 60px;
+}
+
+.projects-main > p {
+    font-family: 'DM Serif Display', serif;;
+    font-size: 30px;
 }
