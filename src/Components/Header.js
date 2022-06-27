@@ -1,5 +1,6 @@
 import "../styles/header.css"
 import {FaRegMoon} from "react-icons/fa"
+import {GiMoonBats} from "react-icons/gi"
 
 export default function Header() {
     return (
@@ -9,7 +10,7 @@ export default function Header() {
                 <li>About</li>
                 <li>Projects</li>
                 <li>Contact</li>
-                <li ><FaRegMoon  /></li>
+                <li ><GiMoonBats size={40}  /></li>
             </ul>
         </header>
     )

@@ -27,20 +27,21 @@
 }
 
 .info-div-title > h1 {
-    font-family: 'DM Serif Display', serif;
-    font-size: 50px;
+    font-family: 'Kaisei Opti', serif;
+    font-size: 40px;
     margin: 0;
 }
 
 .info-div-title > p {
+    font-family: 'Kaisei Opti', serif;
     margin: 0;
     text-align: right;
-    color: #fa709a;
-    font-size: 20px;
+    color: #fa7099a3;
+    font-size: 17px;
 }
 
 .info-div > p {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Kaisei Opti', serif;
     font-size: 28px;
     margin: 0;
     padding-top: 20px;
@@ -51,6 +52,6 @@
 }
 
 .projects-main > p {
-    font-family: 'DM Serif Display', serif;;
+    font-family: 'DM Serif Display', serif;
     font-size: 30px;
 }
