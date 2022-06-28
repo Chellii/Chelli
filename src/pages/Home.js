@@ -4,7 +4,6 @@ import chelliGif from "../images/chelli.gif"
 import Typed from "react-typed"
 import LatestProject from "../Components/LatestProject"
 import Projects from '../data/data'
-import Footer from "../Components/Footer"
 
 import {
     AiOutlineGithub, 
