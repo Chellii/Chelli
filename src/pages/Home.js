@@ -6,6 +6,7 @@ import LatestProject from "../Components/LatestProject"
 import Projects from '../data/data'
 import Footer from "../Components/Footer"
 
+
 export default function Home() {
     const project_tag = Projects.map(project => {
         return (
