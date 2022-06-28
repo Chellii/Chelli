@@ -1,9 +1,8 @@
 footer {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #faf6ef;
     width: 100%;
+    box-shadow: 0px -5px 50px rgba(0, 0, 0, 0.08);
 }
 
 footer > p {

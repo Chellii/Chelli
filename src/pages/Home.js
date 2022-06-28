@@ -74,11 +74,11 @@ export default function Home() {
                                 <p>SAY HELLO</p>
                             </div>
                             <div className="socialnet">
-                <AiOutlineGithub color={'#432600'} size={45} style={{'paddingRight': 25}} />
-                <AiFillLinkedin color={'#432600'} size={45} style={{'paddingRight': 25}} />
-                <AiFillTwitterSquare color={'#432600'} size={45}  style={{'paddingRight': 25}} />
-                <AiOutlineMail color={'#432600'} size={45} />
-            </div>
+                                <AiOutlineGithub color={'#432600'} size={45} style={{'paddingRight': 25}} />
+                                <AiFillLinkedin color={'#432600'} size={45} style={{'paddingRight': 25}} />
+                                <AiFillTwitterSquare color={'#432600'} size={45}  style={{'paddingRight': 25}} />
+                                <AiOutlineMail color={'#432600'} size={45} />
+                            </div>
                         </div>
                     </div>
                 </div>
