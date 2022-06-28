@@ -70,12 +70,21 @@ export default function Home() {
                         <div className="callMe">
                             <p>Want to work together or have any questions ?</p>
                             <div className="helloButton">
-                                <p>SAY HELLO</p>
+                                <a 
+                                    href="mailto:eloiriaglichaimae2@gmail.com"
+                                    target={"_blank"}
+                                >SAY HELLO</a>
                             </div>
                             <div className="socialnet">
-                                <AiOutlineGithub color={'#432600'} size={45} style={{'paddingRight': 25}} />
-                                <AiFillLinkedin color={'#432600'} size={45} style={{'paddingRight': 25}} />
-                                <AiFillTwitterSquare color={'#432600'} size={45}  style={{'paddingRight': 25}} />
+                                <a href={"https://github.com/Chellii"} target={"_blank"} >
+                                    <AiOutlineGithub color={'#432600'} size={45} style={{'paddingRight': 25}} />
+                                </a>
+                                <a href={"https://www.linkedin.com/in/chaimae-el-oiriagli-44804518a/"} target={"_blank"} >
+                                    <AiFillLinkedin color={'#432600'} size={45} style={{'paddingRight': 25}} />
+                                </a>
+                                <a href={""} target={"_blank"} >
+                                    <AiFillTwitterSquare color={'#432600'} size={45}  style={{'paddingRight': 25}} />
+                                </a>
                                 <AiOutlineMail color={'#432600'} size={45} />
                             </div>
                         </div>

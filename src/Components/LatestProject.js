@@ -30,4 +30,4 @@ export default function LatestProject(props) {
             >{props.project.link}</Link>
         </div>
     )
-}4
+}

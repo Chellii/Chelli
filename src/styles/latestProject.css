@@ -34,16 +34,3 @@
     margin: 0;
     color: #4e4d4d;
 }
-
-.linkp {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
-    margin: 0;
-    color: #4e4d4d;
-    
-}
-
-.linkp:hover {
-    color: #a26700ef;
-}
-
