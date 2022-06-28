@@ -1,6 +1,4 @@
 footer {
-    width: 100%;
-    background-color: #fcf3e5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +6,7 @@ footer {
 
 footer > p {
     padding-right: 20px;
-    color: rgb(157, 156, 156) ;
+    color: rgb(173, 172, 172) ;
     font-family: 'Henny Penny', cursive;
-    font-size: 15px;
+    font-size: 17px;
 }

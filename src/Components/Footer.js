@@ -11,10 +11,10 @@ export default function Footer() {
         <footer>
             <p>Created by Chelli</p>
             <div className="socialnet">
-                <AiOutlineGithub color={'#553000'} size={45} style={{'paddingRight': 25}} />
-                <AiFillLinkedin size={45} style={{'paddingRight': 25}} />
-                <AiFillTwitterSquare size={45}  style={{'paddingRight': 25}} />
-                <AiOutlineMail size={45} />
+                <AiOutlineGithub color={'#432600'} size={45} style={{'paddingRight': 25}} />
+                <AiFillLinkedin color={'#432600'} size={45} style={{'paddingRight': 25}} />
+                <AiFillTwitterSquare color={'#432600'} size={45}  style={{'paddingRight': 25}} />
+                <AiOutlineMail color={'#432600'} size={45} />
             </div>
         </footer>
     )
