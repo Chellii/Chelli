@@ -4,7 +4,7 @@ import chelliGif from "../images/chelli.gif"
 import Typed from "react-typed"
 import LatestProject from "../Components/LatestProject"
 import Projects from '../data/data'
-import {AiOutlineGithub, AiFillLinkedin, AiFillTwitterSquare} from 'react-icons/ai'
+import Footer from "../Components/Footer"
 
 export default function Home() {
     const project_tag = Projects.map(project => {
@@ -67,13 +67,9 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="socialnet">
-                        <AiOutlineGithub size={30} />
-                        <AiFillLinkedin size={30} />
-                        <AiFillTwitterSquare size={30} />
-                    </div>
                 </div>
             </main>
+            <Footer />
 
         </div>
     )
