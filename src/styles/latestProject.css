@@ -35,7 +35,7 @@
     color: #4e4d4d;
 }
 
-.latestProject-container > a {
+.linkp {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
     margin: 0;
@@ -43,7 +43,7 @@
     
 }
 
-.latestProject-container > a:hover {
+.linkp:hover {
     color: #a26700ef;
 }
 

@@ -6,6 +6,13 @@ import LatestProject from "../Components/LatestProject"
 import Projects from '../data/data'
 import Footer from "../Components/Footer"
 
+import {
+    AiOutlineGithub, 
+    AiFillLinkedin, 
+    AiFillTwitterSquare,
+    AiOutlineMail
+} from 'react-icons/ai'
+
 
 export default function Home() {
     const project_tag = Projects.map(project => {
@@ -66,11 +73,16 @@ export default function Home() {
                             <div className="helloButton">
                                 <p>SAY HELLO</p>
                             </div>
+                            <div className="socialnet">
+                <AiOutlineGithub color={'#432600'} size={45} style={{'paddingRight': 25}} />
+                <AiFillLinkedin color={'#432600'} size={45} style={{'paddingRight': 25}} />
+                <AiFillTwitterSquare color={'#432600'} size={45}  style={{'paddingRight': 25}} />
+                <AiOutlineMail color={'#432600'} size={45} />
+            </div>
                         </div>
                     </div>
                 </div>
             </main>
-            <Footer />
 
         </div>
     )

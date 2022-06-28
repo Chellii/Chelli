@@ -1,5 +1,4 @@
 import "../styles/header.css"
-import {FaRegMoon} from "react-icons/fa"
 import {GiMoonBats} from "react-icons/gi"
 
 export default function Header() {
