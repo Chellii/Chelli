@@ -1,0 +1,8 @@
+.articles {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    padding-right: 20px;
+    font-family: 'Henny Penny', cursive;
+    font-size: 40px;
+}
