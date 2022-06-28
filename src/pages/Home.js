@@ -25,7 +25,6 @@ export default function Home() {
 
     return(
         <div className="Home--container">
-            <Header />
             <main className="main-home">
                 <div className="info-main-div">
                     <div className="info-div">
