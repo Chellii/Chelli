@@ -82,10 +82,12 @@ export default function Home() {
                                 <a href={"https://www.linkedin.com/in/chaimae-el-oiriagli-44804518a/"} target={"_blank"} >
                                     <AiFillLinkedin color={'#432600'} size={45} style={{'paddingRight': 25}} />
                                 </a>
-                                <a href={""} target={"_blank"} >
+                                <a href={"https://twitter.com/Ch_ellii"} target={"_blank"} >
                                     <AiFillTwitterSquare color={'#432600'} size={45}  style={{'paddingRight': 25}} />
                                 </a>
-                                <AiOutlineMail color={'#432600'} size={45} />
+                                <a href={"mailto:eloiriaglichaimae2@gmail.com"} target={"_blank"} >
+                                    <AiOutlineMail color={'#432600'} size={45} />
+                                </a>
                             </div>
                         </div>
                     </div>
