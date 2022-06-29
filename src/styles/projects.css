@@ -1,8 +1,19 @@
 .project {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin-top: 80px;
     padding-right: 20px;
     font-family: 'Henny Penny', cursive;
+    margin-bottom: 80px;
+}
+
+.project > h1 {
     font-size: 40px;
+}
+
+@media screen and (max-width: 455px) {
+    .project > h1 {
+        font-size: 60px;
+    }
 }

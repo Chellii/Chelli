@@ -12,13 +12,13 @@ export default [
         link: "https://github.com/Chellii/jesuismarocainejesuisdigital"
     },
     {
-        id: 2,
-        title: 'Travel Journal',
-        description: 'Website where you can document your travels and experiences. Created with React js.',
-        link: 'https://github.com/Chellii/Travel-Journal'
+        id: 3,
+        title: "Snake Game",
+        description: "Old snake game, still in progress but worth to put it here",
+        link: "https://chellii.github.io/Game_Repo/snake_game/"
     },
     {
-        id: 3,
+        id: 2,
         title: 'Travel Journal',
         description: 'Website where you can document your travels and experiences. Created with React js.',
         link: 'https://github.com/Chellii/Travel-Journal'
@@ -29,4 +29,10 @@ export default [
         description: "Fractol is a 42 school Project aimed at exploring fractals; mathematical sets that exhibit a repeating pattern displayed at every scale.",
         link: "https://github.com/Chellii/Fractol-42"
     },
+    {
+        id: 5,
+        title: 'RT',
+        description: "For graphic and Math lovers. this is a 42 school project, we have to create from scratch 2D object and make them look like 3D objects using language C and Raytracing",
+        link: "https://github.com/Chellii/RT-42"
+    }
 ]
