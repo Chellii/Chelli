@@ -32,3 +32,18 @@
     margin-left: 50px;
     text-align: justify;
 }
+
+@media screen and (max-width: 455px) {
+    .about-talks {
+        display: flex;
+        flex-direction: column;  
+    }
+    .about-talks > img {
+        height: 750px;
+        border-radius: 5px;
+    }
+    .talks > .about {
+        font-size: 35px;
+        
+    }
+}
