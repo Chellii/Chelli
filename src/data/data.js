@@ -7,9 +7,9 @@ export default [
     },
     {
         id: 1,
-        title: 'Fractol',
-        description: "Fractol is a 42 school Project aimed at exploring fractals; mathematical sets that exhibit a repeating pattern displayed at every scale.",
-        link: "https://github.com/Chellii/Fractol-42"
+        title: 'Je suis Marocaine Je suis Digital',
+        description: "Being a woman in tech means building a strong network of supporters. I built with the help of staff 1337 khouribga a website where we motivate women to enter the world of IT.",
+        link: "https://github.com/Chellii/jesuismarocainejesuisdigital"
     },
     {
         id: 2,
@@ -22,5 +22,11 @@ export default [
         title: 'Travel Journal',
         description: 'Website where you can document your travels and experiences. Created with React js.',
         link: 'https://github.com/Chellii/Travel-Journal'
+    },
+    {
+        id: 4,
+        title: 'Fractol',
+        description: "Fractol is a 42 school Project aimed at exploring fractals; mathematical sets that exhibit a repeating pattern displayed at every scale.",
+        link: "https://github.com/Chellii/Fractol-42"
     },
 ]
