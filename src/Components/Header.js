@@ -10,6 +10,9 @@ const useStyles = makeStyles({
         fontFamily: "'Henny Penny', cursive",
         fontSize: 25,
         color: '#33272A',
+        ['@media screen and (max-width: 455px)'] : {
+            fontSize: 35,
+          },
       '&:link': {
           textDecoration: 'none'
       },
@@ -23,7 +26,7 @@ export default function Header() {
     const classes = useStyles();
     return (
         <header className="header--container">
-            <h1>Chelli</h1>
+            <Link className={classes.root} to="/"><h1>Chelli</h1></Link>
             <ul className="header-ul">
                 <li><Link className={classes.root} to="/about">About</Link></li>
                 <li><Link className={classes.root} to="projects">Projects</Link></li>

@@ -120,3 +120,49 @@
     padding-bottom: 30px;
 }
 
+@media screen and (max-width: 455px) {
+    .projects-main > p {
+        font-size: 70px;
+    }
+
+    .info-div-title > h1 {
+        font-size: 70px;
+    }
+    
+    .info-div-title > p {
+        font-size: 30px;
+    }
+.info-div > p {
+    font-size: 40px;
+}
+.info-main-div {
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.img-div > img {
+    width: 680px;
+}
+
+.getInTouch > h1 {
+    font-size: 60px;
+}
+.callMe > p {
+    font-size: 40px;
+}
+.helloButton {
+    background-color: #f5c118;
+    width: 280px;
+    height: 120px;
+    border-radius: 15px;
+
+}
+
+.helloButton > a {
+    font-size: 30px;
+}
+
+.socialnet {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+}

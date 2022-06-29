@@ -76,16 +76,16 @@ export default function Home() {
                             </div>
                             <div className="socialnet">
                                 <a href={"https://github.com/Chellii"} target={"_blank"} >
-                                    <AiOutlineGithub color={'#432600'} size={45} style={{'paddingRight': 25}} />
+                                    <AiOutlineGithub color={'#432600'} size={50} style={{'paddingRight': 25}} />
                                 </a>
                                 <a href={"https://www.linkedin.com/in/chaimae-el-oiriagli-44804518a/"} target={"_blank"} >
-                                    <AiFillLinkedin color={'#432600'} size={45} style={{'paddingRight': 25}} />
+                                    <AiFillLinkedin color={'#432600'} size={50} style={{'paddingRight': 25}} />
                                 </a>
                                 <a href={"https://twitter.com/Ch_ellii"} target={"_blank"} >
-                                    <AiFillTwitterSquare color={'#432600'} size={45}  style={{'paddingRight': 25}} />
+                                    <AiFillTwitterSquare color={'#432600'} size={50}  style={{'paddingRight': 25}} />
                                 </a>
                                 <a href={"mailto:eloiriaglichaimae2@gmail.com"} target={"_blank"} >
-                                    <AiOutlineMail color={'#432600'} size={45} />
+                                    <AiOutlineMail color={'#432600'} size={50} />
                                 </a>
                             </div>
                         </div>

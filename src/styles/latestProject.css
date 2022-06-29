@@ -34,3 +34,29 @@
     margin: 0;
     color: #4e4d4d;
 }
+@media screen and (max-width: 992px) {
+    .latestProject-container > p {
+        font-size: 24px;
+    }
+    .latestProject-container > h3{
+        font-size: 33px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .latestProject-container > p {
+        font-size: 45px;
+    }
+    .latestProject-container > h3{
+        font-size: 60px;
+    }
+    .header--container > h1 {
+        /* font-size: 60px; */
+    }
+    .header-ul > li {
+        font-size: 30px;
+    }
+    .footer > p {
+        font-size: 25px;
+    }
+}
