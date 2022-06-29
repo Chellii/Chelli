@@ -34,7 +34,7 @@
     margin: 0;
     color: #4e4d4d;
 }
-@media screen and (max-width: 992px) {
+@media only screen and (max-width: 992px) {
     .latestProject-container > p {
         font-size: 24px;
     }
@@ -43,7 +43,7 @@
     }
 }
 
-@media screen and (max-width: 455px) {
+@media only screen and (max-width: 455px) {
     .latestProject-container > p {
         font-size: 45px;
     }

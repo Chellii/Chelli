@@ -33,7 +33,7 @@
     text-align: justify;
 }
 
-@media screen and (max-width: 455px) {
+@media only screen and (max-width: 455px) {
     .about-talks {
         display: flex;
         flex-direction: column;  

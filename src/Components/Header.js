@@ -10,7 +10,7 @@ const useStyles = makeStyles({
         fontFamily: "'Henny Penny', cursive",
         fontSize: 25,
         color: '#33272A',
-        ['@media screen and (max-width: 455px)'] : {
+        ['@media only screen and (max-width: 455px)'] : {
             fontSize: 35,
           },
       '&:link': {

@@ -21,6 +21,12 @@ export default function Projects() {
                 ))
                 }
             </div>
+            <div className="helloButton">
+                <a 
+                    href="https://github.com/Chellii?tab=repositories"
+                    target={"_blank"}
+                >MORE</a>
+            </div>
         </div>
     )
 }

@@ -5,15 +5,49 @@
     margin-top: 80px;
     padding-right: 20px;
     font-family: 'Henny Penny', cursive;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .project > h1 {
     font-size: 40px;
 }
 
-@media screen and (max-width: 455px) {
+.helloButton {
+    background-color: #f5c118;
+    width: 140px;
+    height: 60px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.helloButton > a {
+    font-family: 'Henny Penny', cursive;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: #33272A;
+}
+
+@media only screen and (max-width: 455px) {
     .project > h1 {
         font-size: 60px;
+    }
+
+    .helloButton {
+        background-color: #f5c118;
+        width: 280px;
+        height: 120px;
+        border-radius: 15px;
+    
+    }
+    
+    .helloButton > a {
+        font-size: 30px;
     }
 }

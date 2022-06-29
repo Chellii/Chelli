@@ -12,7 +12,7 @@ footer > p {
     font-size: 17px;
 }
 
-@media screen and (max-width: 455px) {
+@media only screen and (max-width: 455px) {
     footer > p {
         font-size: 30px;
     }
