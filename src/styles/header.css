@@ -51,12 +51,11 @@
         flex-direction: column;
         background-color: #f4be0d;
         width: 100%;
-        height: 80%;
-        border-radius: 10px;
+        height: 100%;
         text-align: center;
         justify-content: center;
         transition: 0.3s;
-        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+        overflow: hidden;
     }
 
     .menu-icon {

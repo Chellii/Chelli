@@ -42,7 +42,13 @@ export default function Header() {
 
     const [isClicked, setIsClicked] = useState(false);
 
-    const handleClick = () => setIsClicked(!isClicked);
+    const handleClick = (() => {
+        if (!isClicked)
+            document.body.style.overflow = 'hidden';
+        else
+            document.body.style.overflow = 'scroll';
+        setIsClicked(!isClicked)
+    });
     const classes = useStyles();
     return (
         <header className="header--container">

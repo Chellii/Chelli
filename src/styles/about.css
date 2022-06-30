@@ -5,12 +5,10 @@
     align-items: center;
 }
 
-
-
 .about--container > h1 {
     margin-bottom: 1.5em;
     font-family: 'Henny Penny', cursive;
-    font-size: 2.5em;
+    font-size: 2.3em;
 }
 
 .about-talks {
@@ -28,15 +26,26 @@
 }
 
 
+
 .talks > p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.75em;
-    margin-left: 1.8em;
+    margin: 1.8em 0 1.8em 0;
     text-align: justify;
 }
 
 @media only screen and (max-width: 700px) {
+    .about--container {
+        font-size: 20px;
+    }
+
     .about-talks {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    /*.about-talks {
         display: flex;
         flex-direction: column;  
     }
@@ -47,5 +56,5 @@
     .talks > .about {
         font-size: 35px;
         
-    }
+    }*/
 }
