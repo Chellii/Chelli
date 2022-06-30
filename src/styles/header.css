@@ -14,18 +14,15 @@
 
 .header-ul > li {
     padding: 0;
-    margin: 0 15px 0 15px;
+    margin: 0 0.6em 0 0.6em;
     font-family: 'Henny Penny', cursive;
-    font-size: 25px;
+    font-size: 1.6em;
 }
+
+
 
 .header-ul > li:hover {
     color: #bababa;
-}
-
-.header--container > h1 {
-    font-family: 'Henny Penny', cursive;
-    font-size: 40px;
 }
 
 .menu-icon {

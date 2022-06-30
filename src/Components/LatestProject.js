@@ -8,7 +8,7 @@ const useStyles = makeStyles({
       fontSize: 18,
       margin: 0,
       color:"#4e4d4d !important",
-      ['@media only screen and (max-width: 600px)'] : {
+      ['@media only screen and (max-width: 700px)'] : {
         fontSize: 35,
         color: '#a26700ef !important'
       },

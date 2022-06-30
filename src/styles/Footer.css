@@ -2,17 +2,18 @@ footer {
     display: flex;
     justify-content: center;
     width: 100%;
-    box-shadow: 0px -5px 50px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 0.1em 4em rgba(0, 0, 0, 0.08);
 }
 
 footer > p {
-    padding-right: 20px;
     color: rgb(173, 172, 172) ;
     font-family: 'Henny Penny', cursive;
-    font-size: 17px;
+    font-size: 1.06em;
 }
 
-@media only screen and (max-width: 600px) {
+
+
+@media only screen and (max-width: 700px) {
     footer > p {
         font-size: 30px;
     }

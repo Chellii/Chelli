@@ -1,14 +1,16 @@
 .about--container {
-    margin-top: 80px;
+    margin-top: 5em;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+
+
 .about--container > h1 {
-    margin-bottom: 60px;
+    margin-bottom: 1.5em;
     font-family: 'Henny Penny', cursive;
-    font-size: 40px;
+    font-size: 2.5em;
 }
 
 .about-talks {
@@ -17,23 +19,23 @@
 }
 
 .about-talks > img {
-    height: 700px;
-    border-radius: 5px;
+    height: 43.8em;
+    border-radius: 0.32em;
 }
 
 .talks {
-    width: 500px;
-    
+    width: 31.25em;  
 }
+
 
 .talks > p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 28px;
-    margin-left: 50px;
+    font-size: 1.75em;
+    margin-left: 1.8em;
     text-align: justify;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .about-talks {
         display: flex;
         flex-direction: column;  

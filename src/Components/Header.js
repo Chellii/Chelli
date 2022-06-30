@@ -8,10 +8,10 @@ const useStyles = makeStyles({
     headeroot: {
         padding: 0,
         fontFamily: "'Henny Penny', cursive",
-        fontSize: 40,
+        fontSize: '2.5em',
         color: 'black',
-        ['@media only screen and (max-width: 600px)'] : {
-            fontSize: 50,
+        ['@media only screen and (max-width: 700px)'] : {
+            fontSize: '3.15em',
           },
       '&:link': {
           textDecoration: 'none'
@@ -23,8 +23,8 @@ const useStyles = makeStyles({
         fontFamily: "'Henny Penny', cursive",
         fontSize: 25,
         color: '#33272A',
-        ['@media only screen and (max-width: 600px)'] : {
-            fontSize: 80,
+        ['@media only screen and (max-width: 700px)'] : {
+            fontSize: '3.2em',
             '&:hover' : {
                 backgroundColor: 'black'
             }
