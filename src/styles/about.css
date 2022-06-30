@@ -8,7 +8,7 @@
 .about--container > h1 {
     margin-bottom: 1.5em;
     font-family: 'Henny Penny', cursive;
-    font-size: 2.3em;
+    font-size: 1.8em;
 }
 
 .about-talks {
@@ -36,7 +36,7 @@
 
 @media only screen and (max-width: 700px) {
     .about--container {
-        font-size: 20px;
+        font-size: 0.6rem;
     }
 
     .about-talks {

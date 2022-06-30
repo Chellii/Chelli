@@ -38,8 +38,8 @@
 
 @media only screen and (max-width: 900px) {
 
-    .project > h1 {
-        font-size: 5rem;
+    .project {
+        font-size: 0.6rem;
     }
 /*
     .moreButton {

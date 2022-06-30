@@ -19,8 +19,8 @@ const useStyles = makeStyles({
         margin: '0 15 0 15',
         fontFamily: "'Henny Penny', cursive",
         color: '#33272A',
+        fontSize: '1.3em',
         ['@media only screen and (max-width: 700px)'] : {
-            fontSize: '3.2em',
             '&:hover' : {
                 backgroundColor: 'black'
             }

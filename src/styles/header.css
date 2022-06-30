@@ -31,24 +31,24 @@
 
 @media only screen and (max-width:750px) {
     .header--container {
-        font-size: 1.5rem;
+        font-size: 0.6rem;
         margin-left: 1.25em;
         margin-right: 1.25em;
     }
     
     .fas.fa-bars {
-        font-size: 4.5em;
+        font-size: 2.5em;
         color: black;
     }
     .fas.fa-times {
-        font-size: 4.5em;
+        font-size: 2.5em;
         color: black;
     }
 
     .header-ul {
         position: fixed;
         left: 100%;
-        top: 18rem;
+        top: 10rem;
         flex-direction: column;
         background-color: #f4be0d;
         width: 100%;

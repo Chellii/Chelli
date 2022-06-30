@@ -133,13 +133,21 @@
 
 @media only screen and (max-width: 700px) {
     .Home--container {
-        font-size: 1.859rem;
+        font-size: 0.6rem;
     }
 
     .info-main-div {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
+        align-items: center;
+    }
+
+    .info-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
  /*
     .projects-main > p {
