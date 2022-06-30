@@ -133,7 +133,7 @@
 
 @media only screen and (max-width: 700px) {
     .Home--container {
-        font-size: 29.7px;
+        font-size: 1.859rem;
     }
 
     .info-main-div {
@@ -141,8 +141,8 @@
         flex-direction: column-reverse;
         justify-content: center;
     }
-    
-    /*.projects-main > p {
+ /*
+    .projects-main > p {
         font-size: 70px;
     }
 

@@ -5,11 +5,10 @@ import { makeStyles } from "@mui/styles"
 const useStyles = makeStyles({
     root: {
       fontFamily: 'Cambria, Cochin, Georgia, Times, \'Times New Roman\', serif',
-      fontSize: 18,
+      fontSize: '1.12em',
       margin: 0,
       color:"#4e4d4d !important",
-      ['@media only screen and (max-width: 700px)'] : {
-        fontSize: 35,
+      ['@media only screen and (max-width: 900px)'] : {
         color: '#a26700ef !important'
       },
       "&:hover": {

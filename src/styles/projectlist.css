@@ -33,17 +33,12 @@
     margin: 0;
     color: #4e4d4d;
 }
-@media only screen and (max-width: 992px) {
-    .Project-container > p {
-        font-size: 24px;
-    }
-    .Project-container > h3{
-        font-size: 33px;
-    }
-}
 
-@media only screen and (max-width: 700px) {
-    .Project-container > p {
+@media only screen and (max-width: 900px) {
+    .Project-container {
+        font-size: 1.8rem;
+    }
+    /*.Project-container > p {
         font-size: 45px;
     }
     .Project-container > h3{
@@ -54,5 +49,5 @@
     }
     .footer > p {
         font-size: 25px;
-    }
+    }*/
 }

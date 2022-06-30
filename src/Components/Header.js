@@ -10,18 +10,14 @@ const useStyles = makeStyles({
         fontFamily: "'Henny Penny', cursive",
         fontSize: '2.5em',
         color: 'black',
-        ['@media only screen and (max-width: 700px)'] : {
-            fontSize: '3.15em',
-          },
-      '&:link': {
-          textDecoration: 'none'
-      },
+        '&:link': {
+            textDecoration: 'none'
+        },
     },
     root: {
         padding: 0,
         margin: '0 15 0 15',
         fontFamily: "'Henny Penny', cursive",
-        fontSize: 25,
         color: '#33272A',
         ['@media only screen and (max-width: 700px)'] : {
             fontSize: '3.2em',
@@ -57,7 +53,7 @@ export default function Header() {
                     <li onClick={handleClick}><Link className={classes.root} to="/about">About</Link></li>
                     <li onClick={handleClick}><Link className={classes.root} to="projects">Projects</Link></li>
                     <li onClick={handleClick}><Link className={classes.root} to="articles">Articles</Link></li>
-                    <li onClick={handleClick}><GiMoonBats className={classes.moon} size={50}  /></li>
+                    <li onClick={handleClick}><GiMoonBats size={'2.5em'}  /></li>
                 </ul>
                 <div className="menu-icon" onClick={handleClick}>
                     <i className={isClicked ? 'fas fa-times fa-lg' : 'fas fa-bars fa-lg'}></i>
