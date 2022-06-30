@@ -1,5 +1,4 @@
 import "../styles/home.css"
-import Header from "../Components/Header"
 import chelliGif from "../images/chelli.gif"
 import Typed from "react-typed"
 import LatestProject from "../Components/LatestProject"
@@ -72,19 +71,36 @@ export default function Home() {
                                 <a 
                                     href="mailto:eloiriaglichaimae2@gmail.com"
                                     target={"_blank"}
+                                    rel="noreferrer"
                                 >SAY HELLO</a>
                             </div>
                             <div className="socialnet">
-                                <a href={"https://github.com/Chellii"} target={"_blank"} >
+                                <a 
+                                    href={"https://github.com/Chellii"} 
+                                    target={"_blank"} 
+                                    rel="noreferrer"
+                                >
                                     <AiOutlineGithub color={'#432600'} size={50} style={{'paddingRight': 25}} />
                                 </a>
-                                <a href={"https://www.linkedin.com/in/chaimae-el-oiriagli-44804518a/"} target={"_blank"} >
+                                <a 
+                                    href={"https://www.linkedin.com/in/chaimae-el-oiriagli-44804518a/"} 
+                                    target={"_blank"} 
+                                    rel="noreferrer"
+                                >
                                     <AiFillLinkedin color={'#432600'} size={50} style={{'paddingRight': 25}} />
                                 </a>
-                                <a href={"https://twitter.com/Ch_ellii"} target={"_blank"} >
+                                <a 
+                                    href={"https://twitter.com/Ch_ellii"} 
+                                    target={"_blank"} 
+                                    rel="noreferrer"
+                                >
                                     <AiFillTwitterSquare color={'#432600'} size={50}  style={{'paddingRight': 25}} />
                                 </a>
-                                <a href={"mailto:eloiriaglichaimae2@gmail.com"} target={"_blank"} >
+                                <a 
+                                    href={"mailto:eloiriaglichaimae2@gmail.com"} 
+                                    target={"_blank"}
+                                    rel="noreferrer"
+                                >
                                     <AiOutlineMail color={'#432600'} size={50} />
                                 </a>
                             </div>

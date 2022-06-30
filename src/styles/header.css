@@ -37,7 +37,8 @@
         margin-left: 20px;
         margin-right: 20px;
     }
-    .fas.fa-bars {
+    
+    .fas .fa-bars {
         font-size: 3em;
         color: black;
     }

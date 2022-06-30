@@ -1,15 +1,18 @@
 .main-home {
-    padding-top: 150px;
-    padding-left: 20px;
+    padding-top: 7.5em;
+    padding-left: 1.2em;
 }
 
 .img-div > img {
-    width: 380px;
+    width: 25em;
 }
 
+
 .img-div {
-    padding-left: 50px;
+    padding-left: 3.3em;
 }
+
+
 
 .info-div {
     display: flex;
@@ -22,48 +25,53 @@
     padding: 0;
     display: flex;
     flex-direction: row;
-    padding-bottom: 30px;
+    padding-bottom: 1.8em;
     
 }
 
 .info-div-title > h1 {
     font-family: 'Kaisei Opti', serif;
-    font-size: 40px;
+    font-size: 2.5em;
     margin: 0;
 }
+
 
 .info-div-title > p {
     font-family: 'Kaisei Opti', serif;
     margin: 0;
     text-align: right;
     color: #a26700ef;
-    font-size: 17px;
+    font-size: 1.1em;
 }
+
 
 .info-div > p {
     font-family: 'Kaisei Opti', serif;
-    font-size: 28px;
+    font-size: 1.8em;
     margin: 0;
-    padding-top: 20px;
+    padding-top: 0.75em;
 }
 
+
 .projects-main {
-    padding-top: 60px;
-    padding-bottom: 50px;
+    padding-top: 3.5em;
+    padding-bottom: 3em;
 }
 
 .projects-main > p {
     font-family: 'DM Serif Display', serif;
-    font-size: 30px;
+    font-size: 1.9em;
 }
+
 
 .contact {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 70px;
-    margin-bottom: 100px;
+    margin-top: 4em;
+    margin-bottom: 6.4em;
 }
+
 
 .getInTouch {
     display: flex;
@@ -73,42 +81,43 @@
 
 .getInTouch > h1 {
     font-family: 'Kaisei Opti', serif;
-    font-size: 40px;
+    font-size: 2.5em;
     color: #33272A;
 }
+
 
 .callMe {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid #33272A;
-    border-radius: 5px;
-    padding: 10px 40px 0px 40px;
-    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 0.15em solid #33272A;
+    border-radius: 0.4em;
+    padding: 0.8em 2.5em 0 2.5em;
+    box-shadow: 0 0.25em 0.6em 0 rgba(0, 0, 0, 0.2), 0 0.2em 0.6em 0 rgba(0, 0, 0, 0.2);
 }
 
 .callMe > p {
     font-family: 'Kaisei Opti', serif;
-    font-size: 25px;
+    font-size: 1.58em;
     font-weight: bold;
     color: #33272A;
 }
 
+
 .helloButton {
     background-color: #f5c118;
-    width: 140px;
-    height: 60px;
-    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
+    width: 8.8em;
+    height: 3.8em;
+    box-shadow: 0 0.3em 0.4em 0 rgba(0, 0, 0, 0.2), 0 0.2em 0.6em 0 rgba(0, 0, 0, 0.2);
+    border-radius: 0.3em;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .helloButton > a {
     font-family: 'Henny Penny', cursive;
-    font-size: 20px;
+    font-size: 1.28em;
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -116,9 +125,11 @@
 }
 
 .socialnet {
-    padding-top: 40px;
-    padding-bottom: 30px;
+    padding-top: 2.5em;
+    padding-bottom: 1.8em;
 }
+
+
 
 @media only screen and (max-width: 600px) {
     .projects-main > p {
@@ -132,37 +143,38 @@
     .info-div-title > p {
         font-size: 30px;
     }
-.info-div > p {
-    font-size: 40px;
-}
-.info-main-div {
-    flex-direction: column-reverse;
-    align-items: center;
-}
-.img-div > img {
-    width: 680px;
-}
 
-.getInTouch > h1 {
-    font-size: 60px;
-}
-.callMe > p {
-    font-size: 40px;
-}
-.helloButton {
-    background-color: #f5c118;
-    width: 280px;
-    height: 120px;
-    border-radius: 15px;
+    .info-div > p {
+        font-size: 40px;
+    }
+    .info-main-div {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .img-div > img {
+        width: 680px;
+    }
 
-}
+    .getInTouch > h1 {
+        font-size: 60px;
+    }
+    .callMe > p {
+        font-size: 40px;
+    }
+    .helloButton {
+        background-color: #f5c118;
+        width: 280px;
+        height: 120px;
+        border-radius: 15px;
 
-.helloButton > a {
-    font-size: 30px;
-}
+    }
 
-.socialnet {
-    padding-top: 50px;
-    padding-bottom: 80px;
-}
+    .helloButton > a {
+        font-size: 30px;
+    }
+    
+    .socialnet {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
 }

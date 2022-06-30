@@ -12,12 +12,12 @@
     font-size: 40px;
 }
 
-.helloButton {
+.moreButton {
     background-color: #f5c118;
-    width: 140px;
-    height: 60px;
-    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
+    width: 8.8em;
+    height: 3.8em;
+    box-shadow: 0 0.3em 0.4em 0 rgba(0, 0, 0, 0.2), 0 0.2em 0.6em 0 rgba(0, 0, 0, 0.2);
+    border-radius: 0.3em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,7 +25,8 @@
 
 }
 
-.helloButton > a {
+
+.moreButton > a {
     font-family: 'Henny Penny', cursive;
     font-size: 20px;
     padding: 0;
@@ -39,7 +40,7 @@
         font-size: 60px;
     }
 
-    .helloButton {
+    .moreButton {
         background-color: #f5c118;
         width: 280px;
         height: 120px;
@@ -47,7 +48,7 @@
     
     }
     
-    .helloButton > a {
+    .moreButton > a {
         font-size: 30px;
     }
 }
