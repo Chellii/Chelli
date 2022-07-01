@@ -8,7 +8,7 @@ const useStyles = makeStyles({
       fontSize: '1.12em',
       margin: 0,
       color:"#4e4d4d !important",
-      ['@media only screen and (max-width: 900px)'] : {
+      ['@media only screen and (max-width: 1000px)'] : {
         color: '#a26700ef !important'
       },
       "&:hover": {

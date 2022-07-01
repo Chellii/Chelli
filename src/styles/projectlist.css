@@ -34,7 +34,7 @@
     color: #4e4d4d;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
     .Project-container {
         font-size: 0.7rem;
     }

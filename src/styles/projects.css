@@ -36,7 +36,7 @@
     color: #33272A;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
 
     .project {
         font-size: 0.6rem;

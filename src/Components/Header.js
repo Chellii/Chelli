@@ -20,7 +20,7 @@ const useStyles = makeStyles({
         fontFamily: "'Henny Penny', cursive",
         color: '#33272A',
         fontSize: '1.3em',
-        ['@media only screen and (max-width: 700px)'] : {
+        ['@media only screen and (max-width: 1000px)'] : {
             '&:hover' : {
                 backgroundColor: 'black'
             }

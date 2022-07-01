@@ -130,7 +130,7 @@
 
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
     .Home--container {
         font-size: 0.6rem;
         padding: 0;
