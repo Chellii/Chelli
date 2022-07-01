@@ -80,28 +80,28 @@ export default function Home() {
                                     target={"_blank"} 
                                     rel="noreferrer"
                                 >
-                                    <AiOutlineGithub color={'#432600'} size={50} style={{'paddingRight': 25}} />
+                                    <AiOutlineGithub color={'#432600'} size={'3.2em'} style={{'paddingRight': 25}} />
                                 </a>
                                 <a 
                                     href={"https://www.linkedin.com/in/chaimae-el-oiriagli-44804518a/"} 
                                     target={"_blank"} 
                                     rel="noreferrer"
                                 >
-                                    <AiFillLinkedin color={'#432600'} size={50} style={{'paddingRight': 25}} />
+                                    <AiFillLinkedin color={'#432600'} size={'3.2em'} style={{'paddingRight': 25}} />
                                 </a>
                                 <a 
                                     href={"https://twitter.com/Ch_ellii"} 
                                     target={"_blank"} 
                                     rel="noreferrer"
                                 >
-                                    <AiFillTwitterSquare color={'#432600'} size={50}  style={{'paddingRight': 25}} />
+                                    <AiFillTwitterSquare color={'#432600'} size={'3.2em'}  style={{'paddingRight': 25}} />
                                 </a>
                                 <a 
                                     href={"mailto:eloiriaglichaimae2@gmail.com"} 
                                     target={"_blank"}
                                     rel="noreferrer"
                                 >
-                                    <AiOutlineMail color={'#432600'} size={50} />
+                                    <AiOutlineMail color={'#432600'} size={'3.2em'} />
                                 </a>
                             </div>
                         </div>
