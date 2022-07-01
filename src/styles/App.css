@@ -15,11 +15,14 @@
 @media only screen and (max-width: 700px) {
     .App {
         font-size: 1rem;
-        max-width: none;
+        max-width: auto;
+        padding: 0;
     }
 
     .app--container {
         max-width: none;
-        min-width: 12em;
+        min-width: auto;
+        padding: 0;
+        
     }
 }
