@@ -3,12 +3,12 @@
     justify-content: center;
     margin-top: 2.5em;
     font-family: 'Henny Penny', cursive;
-    font-size: 5em;
+    font-size: 2em;
 }
 
 @media only screen and (max-width:1000px) {
     .articles {
-        font-size: 1rem;
+        font-size: 3rem;
     }
 
 }
