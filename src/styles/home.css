@@ -4,7 +4,7 @@
 }
 
 .img-div > img {
-    width: 25em;
+    width: 27em;
 }
 
 
@@ -148,6 +148,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .img-div {
+        padding-left: 0;
     }
  /*
     .projects-main > p {
