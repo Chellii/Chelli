@@ -20,8 +20,8 @@
     }
 
     .app--container {
-        max-width: none;
-        min-width: auto;
+        max-width: auto;
+        min-width: 200px;
         padding: 0;
         
     }
