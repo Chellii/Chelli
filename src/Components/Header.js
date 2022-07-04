@@ -48,7 +48,7 @@ export default function Header() {
     const classes = useStyles();
     return (
         <header className="header--container">
-            <Link className={classes.headeroot} to="/"><h1 onClick={handleClick}>Chelli</h1></Link>
+            <Link className={classes.headeroot} to="/"><h1>Chelli</h1></Link>
                 <ul className={isClicked ? "header-ul clicked" : "header-ul"}>
                     <li onClick={handleClick}><Link className={classes.root} to="/about">About</Link></li>
                     <li onClick={handleClick}><Link className={classes.root} to="projects">Projects</Link></li>
