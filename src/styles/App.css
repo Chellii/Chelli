@@ -12,7 +12,7 @@
     min-height: 94.9vh;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
     .App {
         font-size: 1rem;
         max-width: auto;

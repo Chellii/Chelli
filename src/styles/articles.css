@@ -6,7 +6,7 @@
     font-size: 2em;
 }
 
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width:1200px) {
     .articles {
         font-size: 3rem;
     }

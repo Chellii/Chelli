@@ -37,7 +37,13 @@
     text-align: justify;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
+    .about--container {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
     .about--container {
         font-size: 0.6rem;
     }
@@ -47,17 +53,4 @@
         flex-direction: column;
         justify-content: center;
     }
-    
-    /*.about-talks {
-        display: flex;
-        flex-direction: column;  
-    }
-    .about-talks > img {
-        height: 750px;
-        border-radius: 5px;
-    }
-    .talks > .about {
-        font-size: 35px;
-        
-    }*/
 }

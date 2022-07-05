@@ -4,6 +4,7 @@
     align-items: center;
     margin-top: 4.5em;
     padding-right: 1.25em;
+    padding-left: 1.25em;
     font-family: 'Henny Penny', cursive;
     margin-bottom: 3.12em;
 }
@@ -36,21 +37,16 @@
     color: #33272A;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
+
+    .project {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
 
     .project {
         font-size: 0.6rem;
     }
-/*
-    .moreButton {
-        background-color: #f5c118;
-        width: 280px;
-        height: 120px;
-        border-radius: 15px;
-    
-    }
-    
-    .moreButton > a {
-        font-size: 30px;
-    }*/
 }

@@ -34,20 +34,8 @@
     color: #4e4d4d;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
     .Project-container {
-        font-size: 0.7rem;
+        font-size: 0.7rem;     
     }
-    /*.Project-container > p {
-        font-size: 45px;
-    }
-    .Project-container > h3{
-        font-size: 60px;
-    }
-    .header-ul > li {
-        font-size: 30px;
-    }
-    .footer > p {
-        font-size: 25px;
-    }*/
 }

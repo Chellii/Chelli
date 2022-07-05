@@ -37,32 +37,17 @@
     margin: 0;
     color: #4e4d4d;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
     .latestProject-container {
         font-size: 1.4rem;
+        
     }
-/*    .latestProject-container > p {
-        font-size: 24px;
-    }
-    .latestProject-container > h3{
-        font-size: 33px;
-    }*/
+
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
     .latestProject-container {
         font-size: 0.6rem;
+        
     }
-/*    .latestProject-container > p {
-        font-size: 45px;
-    }
-    .latestProject-container > h3{
-        font-size: 60px;
-    }
-    .header-ul > li {
-        font-size: 30px;
-    }
-    .footer > p {
-        font-size: 25px;
-    }*/
 }
