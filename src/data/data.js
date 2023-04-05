@@ -2,7 +2,7 @@ export default [
     {
         id: 0,
         title: 'Clear Path Canada Project',
-        description: 'Currently building this Website with another person for a company that helps people to move to Canada',
+        description: 'Built this Website with another person for a company that helps people to move to Canada',
         link: 'https://clearpathcanada.ca/'
     },
     {
@@ -19,18 +19,24 @@ export default [
     },
     {
         id: 3,
+        title: 'Unsplash Gallery',
+        description: "This is website that use lazy loading to show a gallery of images but before entering the gallery you should sign in.",
+        link: "https://github.com/Chellii/jesuismarocainejesuisdigital"
+    },
+    {
+        id: 4,
         title: 'Github Api Project',
         description: 'I created a project using Github Api, where you can search user by its username and it will give you the users informations and followers.',
         link: 'https://github-mockapi.herokuapp.com/'
     },
     {
-        id: 4,
+        id: 5,
         title: "Snake Game",
         description: "Old snake game, still in progress but worth to put it here",
         link: "https://chellii.github.io/Game_Repo/snake_game/"
     },
     {
-        id: 5,
+        id: 6,
         title: 'Travel Journal',
         description: 'Website where you can document your travels and experiences. Created with React js.',
         link: 'https://github.com/Chellii/Travel-Journal'
