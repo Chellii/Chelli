@@ -36,27 +36,32 @@ const useStyles = makeStyles({
 
 export default function Header() {
 
-    const [isClicked, setIsClicked] = useState(false);
+    const [isClickedMenu, setIsClickedMenu] = useState(false);
 
-    const handleClick = (() => {
-        if (!isClicked)
+    const handleClickMenu = (() => {
+        if (!isClickedMenu)
             document.body.style.overflow = 'hidden';
         else
             document.body.style.overflow = 'scroll';
-        setIsClicked(!isClicked)
+        setIsClickedMenu(!isClickedMenu)
     });
+    const handleClick = (() => {
+        document.body.style.overflow = 'scroll'
+        if (isClickedMenu)
+            setIsClickedMenu(false)
+    })
     const classes = useStyles();
     return (
         <header className="header--container">
             <Link className={classes.headeroot} to="/"><h1>Chelli</h1></Link>
-                <ul className={isClicked ? "header-ul clicked" : "header-ul"}>
+                <ul className={isClickedMenu ? "header-ul clicked" : "header-ul"}>
                     <li onClick={handleClick}><Link className={classes.root} to="/about">About</Link></li>
                     <li onClick={handleClick}><Link className={classes.root} to="projects">Projects</Link></li>
                     <li onClick={handleClick}><Link className={classes.root} to="articles">Articles</Link></li>
                     <li onClick={handleClick}><GiMoonBats size={'2.5em'}  /></li>
                 </ul>
-                <div className="menu-icon" onClick={handleClick}>
-                    <i className={isClicked ? 'fas fa-times fa-lg' : 'fas fa-bars fa-lg'}></i>
+                <div className="menu-icon" onClick={handleClickMenu}>
+                    <i className={isClickedMenu ? 'fas fa-times fa-lg' : 'fas fa-bars fa-lg'}></i>
                 </div>
         </header>
     )

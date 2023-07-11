@@ -1,9 +1,8 @@
 import "../styles/home.css"
 import chelliGif from "../images/chelli.gif"
 import Typed from "react-typed"
-import LatestProject from "../Components/LatestProject"
 import Projects from '../data/data'
-
+import ProjectList from "../Components/ProjectList"
 import {
     AiOutlineGithub, 
     AiFillLinkedin, 
@@ -15,7 +14,7 @@ import {
 export default function Home() {
     const project_tag = Projects.map(project => {
         return (
-            <LatestProject 
+            <ProjectList 
                 key={project.id}
                 project={project} 
             />
