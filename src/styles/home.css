@@ -12,7 +12,6 @@
     box-shadow: 0px 0px 70px 4px rgba(230,223,195,1);
 }
 
-
 .img-div {
     padding-left: 3.3em;
 }
@@ -38,7 +37,6 @@
     margin: 0;
 }
 
-
 .info-div-title > p {
     font-family: 'Kaisei Opti', serif;
     margin: 0;
@@ -51,7 +49,6 @@
     color: #6c388c;
 }
 
-
 .info-div > p {
     font-family: 'Kaisei Opti', serif;
     font-size: 1.8em;
@@ -63,6 +60,7 @@
 .projects-main {
     padding-top: 3.5em;
     padding-bottom: 3em;
+    position: relative;
 }
 
 .projects-main > p {
@@ -160,6 +158,115 @@
     padding-bottom: 1.8em;
 }
 
+.cat {
+    z-index: 7;
+    position: absolute;
+    height: 70px;
+    width: 58px;
+    top: 89px;
+    right: 10px;
+    border-radius: 0 50% 20% 0;
+    background-color: #413f3f;
+}
+
+.tail {
+    position: absolute;
+    height: 30px;
+    width: 14px;
+    top: 65px;
+    left: 44px;
+    border-radius: 0 15px 25px 25px;
+    background-color: #413f3f;
+}
+
+.tail1 {
+    position: absolute;
+    height: 10px;
+    width: 14px;
+    top: 20px;
+    border-radius: 20px;
+    background-color: #FFF;
+    animation: tails1 15s infinite;
+    transform: rotate(13deg);
+      transform-origin: center center;
+}
+.tail-last {
+    position: absolute;
+    height: 10px;
+    width: 14px;
+    top: 5px;
+    border-radius: 25px;
+    background-color: #FFF;
+    animation: tails1 15s infinite;
+    transform: rotate(13deg);
+    transform-origin: center center;
+}
+.tailx {
+    position: absolute;
+    height: 10px;
+    width: 14px;
+    top: 5px;
+    border-radius: 25px 20px 0 0 ;
+    background-color: #FFF;
+    animation: tails1 15s infinite;
+    transform: rotate(13deg);
+    transform-origin: center center;
+}
+
+@keyframes tails1 {
+    10%, 30%, 50%, 93% {
+      transform: rotate(-13deg);
+    }
+    55%, 88% {
+      transform: rotate(0deg) scale(1.07);
+    }
+    0%, 20%, 40%, 100% {
+      transform: rotate(13deg);
+    }
+}
+
+.paw {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    bottom: 0;
+    left: -8px;
+    border-radius: 50% 30% 0 0;
+    background-color: #FFF;
+}
+.head {
+    position: absolute;
+    height: 38px;
+    width: 38px;
+    top: -30px;
+    left: -8px;
+    border-radius: 40% 50% 30% 40%;
+    background-color: #413f3f;
+    animation: cat-head 15s infinite;
+}
+
+@keyframes cat-head {
+    52%, 91% { transform: scale(1); }
+    53%, 88% { transform: scale(1.1, 0.8); }
+}
+
+.ear1 {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    transform: skew(50deg) rotate(45deg);
+    background-color: #413f3f;
+}
+.ear2 {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    transform: skew(-50deg) rotate(45deg);
+    background-color: #413f3f;
+    left: 12px;
+}
+
 @media only screen and (max-width: 1200px) {
     .Home--container {
         font-size: 0.65rem;
@@ -169,6 +276,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .cat {
+        top: 33px;
     }
 }
 
@@ -196,50 +306,8 @@
     .img-div {
         padding-left: 0;
     }
- /*
-    .projects-main > p {
-        font-size: 70px;
-    }
 
-    .info-div-title > h1 {
-        font-size: 70px;
+    .cat {
+        top: 25px;
     }
-    
-    .info-div-title > p {
-        font-size: 30px;
-    }
-
-    .info-div > p {
-        font-size: 40px;
-    }
-    .info-main-div {
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-    .img-div > img {
-        width: 680px;
-    }
-
-    .getInTouch > h1 {
-        font-size: 60px;
-    }
-    .callMe > p {
-        font-size: 40px;
-    }
-    .helloButton {
-        background-color: #f5c118;
-        width: 280px;
-        height: 120px;
-        border-radius: 15px;
-
-    }
-
-    .helloButton > a {
-        font-size: 30px;
-    }
-    
-    .socialnet {
-        padding-top: 50px;
-        padding-bottom: 80px;
-    }*/
 }

@@ -58,6 +58,37 @@ export default function Home() {
                 </div>
                 <div className="projects-main">
                     <p>Latest Projects</p>
+                    {isDarkMode && <div class="cat">
+                        <div class="body"></div>
+                        <div class="tail">
+                            <div class="tail1">
+                                <div class="tailx">
+                                    <div class="tailx">
+                                        <div class="tailx">
+                                            <div class="tailx">
+                                                <div class="tailx">
+                                                    <div class="tailx">
+                                                        <div class="tailx">
+                                                            <div class="tailx">
+                                                                <div class="tailx">
+                                                                    <div class="tail-last"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="head">
+                            <div class="ear1"></div>
+                            <div class="ear2"></div>
+                        </div>
+                        <div class="paw"></div>
+                    </div>}
                     <div className="project-container">
                         {
                         project_tag.map((item, i) => (
