@@ -1,5 +1,5 @@
 .about--container {
-    margin-top: 5em;
+    /* margin-top: 5em; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,6 +11,8 @@
     font-family: 'Henny Penny', cursive;
     font-size: 1.8em;
     text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .about-talks {
@@ -19,7 +21,7 @@
 }
 
 .about-talks > img {
-    height: 43.8em;
+    height: 34em;
     border-radius: 0.32em;
 }
 
@@ -32,7 +34,7 @@
 
 .talks > p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1.75em;
+    font-size: 1.4em;
     margin: 1.8em 0 1.8em 0;
     text-align: justify;
 }

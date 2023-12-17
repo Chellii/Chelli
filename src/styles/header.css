@@ -3,6 +3,11 @@
     justify-content: space-between;
     align-items: center;
     color: #33272A;
+    width: 1100px;
+    max-width: 1100px;
+    @media only screen and (max-width:1200px) {
+        width: unset;
+    }
 
 } 
 
@@ -16,7 +21,7 @@
     padding: 0;
     margin: 0 0.6em 0 0.6em;
     font-family: 'Henny Penny', cursive;
-    font-size: 1.6em;
+    font-size: 1.2em;
 }
 
 
@@ -48,7 +53,7 @@
     .header-ul {
         position: fixed;
         left: 100%;
-        top: 10rem;
+        top: 5rem;
         flex-direction: column;
         background-color: #f4be0d;
         width: 100%;

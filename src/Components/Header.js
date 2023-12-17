@@ -8,7 +8,7 @@ const useStyles = makeStyles({
     headeroot: {
         padding: 0,
         fontFamily: "'Henny Penny', cursive",
-        fontSize: '2.5em',
+        fontSize: '1.5em',
         color: 'black',
         '&:link': {
             textDecoration: 'none'
@@ -55,7 +55,7 @@ export default function Header() {
         <header className="header--container">
             <Link className={classes.headeroot} to="/"><h1>Chelli</h1></Link>
                 <ul className={isClickedMenu ? "header-ul clicked" : "header-ul"}>
-                    <li onClick={handleClick}><Link className={classes.root} to="/about">About</Link></li>
+                    <li onClick={handleClick}><Link className={classes.root} to="about">About</Link></li>
                     <li onClick={handleClick}><Link className={classes.root} to="projects">Projects</Link></li>
                     <li onClick={handleClick}><Link className={classes.root} to="articles">Articles</Link></li>
                     <li onClick={handleClick}><GiMoonBats size={'2.5em'}  /></li>

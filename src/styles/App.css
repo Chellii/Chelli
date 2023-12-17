@@ -1,15 +1,21 @@
+#root {
+    width: 100%;
+}
+
 .App {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0.62em 0.94em 0 0.94em;
+    width: 98%;
 }
 
 .app--container {
     padding: 0 0.94em 0 0.94em;
     max-width: 1100px;
-    min-height: 94.9vh;
+    min-height: 97vh;
+    width: 100%;
 }
 
 @media only screen and (max-width: 1200px) {
