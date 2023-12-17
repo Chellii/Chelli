@@ -2,16 +2,20 @@
     padding: 7.5em 1.2em 0 1.2em;
 }
 
-.img-div > img {
+.img-div > div > img {
     width: 27em;
+}
+
+.img-div.dark-mode > div  {
+    background-color: #fff9df;
+    border-radius: 50%;
+    box-shadow: 0px 0px 70px 4px rgba(230,223,195,1);
 }
 
 
 .img-div {
     padding-left: 3.3em;
 }
-
-
 
 .info-div {
     display: flex;
@@ -41,6 +45,10 @@
     text-align: right;
     color: #a26700ef;
     font-size: 1.1em;
+}
+
+.info-div-title.dark-mode.p > p {
+    color: #6c388c;
 }
 
 
@@ -84,6 +92,10 @@
     color: #33272A;
 }
 
+.getInTouch.dark-mode > h1 {
+    color: #b7b7b7;
+}
+
 
 .callMe {
     display: flex;
@@ -95,11 +107,19 @@
     box-shadow: 0 0.25em 0.6em 0 rgba(0, 0, 0, 0.2), 0 0.2em 0.6em 0 rgba(0, 0, 0, 0.2);
 }
 
+.callMe.dark-mode {
+    border-color: #b7b7b7;
+}
+
 .callMe > p {
     font-family: 'Kaisei Opti', serif;
     font-size: 1.58em;
     font-weight: bold;
     color: #33272A;
+}
+
+.callMe.dark-mode > p {
+    color: #b7b7b7;
 }
 
 
@@ -112,6 +132,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.helloButton.dark-mode {
+    background-color: #7c4a9a;
+}
+
+.helloButton.dark-mode:hover {
+    background-color: #fe5303;
+}
+
+.helloButton.dark-mode > a {
+    color: white;
 }
 
 .helloButton > a {

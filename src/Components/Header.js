@@ -1,40 +1,11 @@
 import "../styles/header.css"
-import {GiMoonBats} from "react-icons/gi"
+import {GiMoonBats, GiSun} from "react-icons/gi"
 import { Link } from 'react-router-dom';
-import { makeStyles } from "@mui/styles"
 import { useState } from "react";
-
-const useStyles = makeStyles({
-    headeroot: {
-        padding: 0,
-        fontFamily: "'Henny Penny', cursive",
-        fontSize: '1.5em',
-        color: 'black',
-        '&:link': {
-            textDecoration: 'none'
-        },
-    },
-    root: {
-        padding: 0,
-        margin: '0 15 0 15',
-        fontFamily: "'Henny Penny', cursive",
-        color: '#33272A',
-        fontSize: '1.3em',
-        ['@media only screen and (max-width: 1200px)'] : {
-            '&:hover' : {
-                backgroundColor: 'black'
-            }
-          },
-      '&:link': {
-          textDecoration: 'none'
-      },
-      '&:hover' : {
-          color: '#e3b10d'
-      }
-    },
-  });
+import { useTheme } from "./ThemeContext";
 
 export default function Header() {
+    const { toggleTheme, isDarkMode } = useTheme()
 
     const [isClickedMenu, setIsClickedMenu] = useState(false);
 
@@ -50,19 +21,47 @@ export default function Header() {
         if (isClickedMenu)
             setIsClickedMenu(false)
     })
-    const classes = useStyles();
+
     return (
-        <header className="header--container">
-            <Link className={classes.headeroot} to="/"><h1>Chelli</h1></Link>
-                <ul className={isClickedMenu ? "header-ul clicked" : "header-ul"}>
-                    <li onClick={handleClick}><Link className={classes.root} to="about">About</Link></li>
-                    <li onClick={handleClick}><Link className={classes.root} to="projects">Projects</Link></li>
-                    <li onClick={handleClick}><Link className={classes.root} to="articles">Articles</Link></li>
-                    <li onClick={handleClick}><GiMoonBats size={'2.5em'}  /></li>
-                </ul>
-                <div className="menu-icon" onClick={handleClickMenu}>
-                    <i className={isClickedMenu ? 'fas fa-times fa-lg' : 'fas fa-bars fa-lg'}></i>
+        <header className={`header--container ${isDarkMode ? "dark-mode" : ""}`}>
+            <Link className={`header-logo ${isDarkMode ? "dark-mode" : ""}`} to="/">
+                <h1>Chelli</h1>
+                {isDarkMode && <>
+                <div class="spider-line">
+                    <div class="spider">
+                        <div class="spider-body"></div>
+                        <div class="spider-head"></div>
+                        <div class="spider-circle"></div>
+                        <div class="spider-leg1"></div>
+                        <div class="spider-leg2"></div>
+                        <div class="spider-leg3"></div>
+                        <div class="spider-leg4"></div>
+                        <div class="spider-leg5"></div>
+                        <div class="spider-leg6"></div>
+                    </div>
                 </div>
+                <div class="spider-line-shadow">
+                    <div class="spider-shadow">
+                        <div class="spider-body-shadow"></div>
+                        <div class="spider-head-shadow"></div>
+                        <div class="spider-leg1-shadow"></div>                            <div class="spider-leg2"></div>
+                        <div class="spider-leg3-shadow"></div>
+                        <div class="spider-leg4-shadow"></div>
+                        <div class="spider-leg5-shadow"></div>
+                        <div class="spider-leg6-shadow"></div>
+                    </div>
+                </div></>
+                }
+            </Link>
+            <ul className={isClickedMenu ? `header-ul clicked ${isDarkMode ? "dark-mode" : ""}` : `header-ul ${isDarkMode ? "dark-mode" : ""}`}>
+                <li onClick={handleClick}><Link className={`header-choices ${isDarkMode ? "dark-mode" : ""}`} to="about">About</Link></li>
+                <li onClick={handleClick}><Link className={`header-choices ${isDarkMode ? "dark-mode" : ""}`} to="projects">Projects</Link></li>
+                <li onClick={handleClick}><Link className={`header-choices ${isDarkMode ? "dark-mode" : ""}`} to="articles">Articles</Link></li>
+                <li onClick={toggleTheme}>{isDarkMode? <GiSun size={'2.5em'} color={'white'} /> : <GiMoonBats size={'2.5em'} />}</li>
+            </ul>
+            <div className="menu-icon" onClick={handleClickMenu}>
+                <i className={isClickedMenu ? `fas fa-times fa-lg ${isDarkMode ? "dark-mode" : ""}` : `fas fa-bars fa-lg ${isDarkMode ? "dark-mode" : ""}`}></i>
+            </div>
         </header>
     )
 }

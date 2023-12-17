@@ -1,8 +1,10 @@
 import '../styles/projects.css'
 import ProjectList from '../Components/ProjectList'
 import Project from '../data/data'
+import { useTheme } from '../Components/ThemeContext'
 
 export default function Projects() {
+    const { isDarkMode } = useTheme()
     const project_tag = Project.map(project => {
         return (
             <ProjectList
@@ -21,7 +23,7 @@ export default function Projects() {
                 ))
                 }
             </div>
-            <div className="moreButton">
+            <div className={`moreButton ${isDarkMode ? 'dark-mode' : ''}`}>
                 <a 
                     href="https://github.com/Chellii?tab=repositories"
                     target={"_blank"}

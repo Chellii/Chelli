@@ -15,6 +15,13 @@ body {
     box-sizing: border-box;
 }
 
+body.dark-theme {
+    background-color: black;
+    border-image-source: linear-gradient(90deg,#fe53039c,#7416abab 70%);
+    color: #e2e1e1;
+}
+
+
 @media only screen and (max-width: 1200px) {
     body {
         font-size: 1rem;

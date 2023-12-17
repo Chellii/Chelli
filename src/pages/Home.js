@@ -9,9 +9,10 @@ import {
     AiFillTwitterSquare,
     AiOutlineMail
 } from 'react-icons/ai'
-
+import { useTheme } from "../Components/ThemeContext"
 
 export default function Home() {
+    const { isDarkMode } = useTheme()
     const project_tag = Projects.map(project => {
         return (
             <ProjectList 
@@ -26,15 +27,16 @@ export default function Home() {
             <main className="main-home">
                 <div className="info-main-div">
                     <div className="info-div">
-                        <div className="info-div-title">
+                        <div className={`info-div-title ${isDarkMode ? "dark-mode p": ""}`}>
                             <h1>Hello I'm Chaimae El Oiriagli</h1>
-                            <p>But call me Chelli</p>
+                            <p class={isDarkMode ? "dark-mode p": ""}>But call me Chelli</p>
                         </div>
                         <p>I am a 
-                        <Typed
+                            <Typed
+                               className={isDarkMode ? "dark-mode" : ""} 
                             style={{
-                                'paddingLeft':10,
-                                'color':'#f4be0d'
+                                'paddingLeft': 10,
+                                'color': `${isDarkMode ? '#581088' : '#f4be0d'}`
                             }}
                             strings={[
                                 "Software Engineer",
@@ -47,8 +49,11 @@ export default function Home() {
                         />
                         </p>
                     </div>
-                    <div className="img-div">
-                        <img src={chelliGif} alt="chelli"/>
+                    <div className={`img-div ${isDarkMode ? "dark-mode p": ""}`}>
+                        <div>
+                            
+                        <img src={chelliGif} alt="chelli" />
+                        </div>
                     </div>
                 </div>
                 <div className="projects-main">
@@ -62,11 +67,11 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="contact">
-                    <div className="getInTouch">
+                    <div className={`getInTouch ${isDarkMode ? "dark-mode" : ""}`}>
                         <h1>Get in Touch</h1>
-                        <div className="callMe">
+                        <div className={`callMe ${isDarkMode ? "dark-mode" : ""}`}>
                             <p>Want to work together or have any questions ?</p>
-                            <div className="helloButton">
+                            <div className={`helloButton ${isDarkMode ? 'dark-mode' : ''}`}>
                                 <a 
                                     href="mailto:eloiriaglichaimae2@gmail.com"
                                     target={"_blank"}
@@ -79,28 +84,28 @@ export default function Home() {
                                     target={"_blank"} 
                                     rel="noreferrer"
                                 >
-                                    <AiOutlineGithub color={'#432600'} size={'3.2em'} style={{'paddingRight': 25}} />
+                                    <AiOutlineGithub color={isDarkMode ? 'white' : '#432600'} size={'3.2em'} style={{'paddingRight': 25}} />
                                 </a>
                                 <a 
                                     href={"https://www.linkedin.com/in/chaimae-el-oiriagli-44804518a/"} 
                                     target={"_blank"} 
                                     rel="noreferrer"
                                 >
-                                    <AiFillLinkedin color={'#432600'} size={'3.2em'} style={{'paddingRight': 25}} />
+                                    <AiFillLinkedin color={isDarkMode ? 'white' : '#432600'} size={'3.2em'} style={{'paddingRight': 25}} />
                                 </a>
                                 <a 
                                     href={"https://twitter.com/Ch_ellii"} 
                                     target={"_blank"} 
                                     rel="noreferrer"
                                 >
-                                    <AiFillTwitterSquare color={'#432600'} size={'3.2em'}  style={{'paddingRight': 25}} />
+                                    <AiFillTwitterSquare color={isDarkMode ? 'white' : '#432600'} size={'3.2em'}  style={{'paddingRight': 25}} />
                                 </a>
                                 <a 
                                     href={"mailto:eloiriaglichaimae2@gmail.com"} 
                                     target={"_blank"}
                                     rel="noreferrer"
                                 >
-                                    <AiOutlineMail color={'#432600'} size={'3.2em'} />
+                                    <AiOutlineMail color={isDarkMode ? 'white' : '#432600'} size={'3.2em'} />
                                 </a>
                             </div>
                         </div>
